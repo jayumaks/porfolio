@@ -1456,7 +1456,7 @@ textarea, label {
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
-@media only screen and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   body {
     overflow-x: hidden;
   }
@@ -1486,7 +1486,17 @@ textarea, label {
   }
   .hexagon-item:first-child {
     margin-left: auto;
+    display: flex;
+    
   }
+
+
+  @media (min-width: 360px) and (max-width: 740px) {
+    .hex-item:first-child {
+      margin-right: auto;
+      display: flex;
+    }
+    }
 
   .page-home .hexagon-item:nth-last-child(1),
   .page-home .hexagon-item:nth-last-child(2),
