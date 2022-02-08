@@ -17,7 +17,10 @@
 .hexagon-item:hover .hex-item div::after,
 .progress .bar,
 .contact-social li:hover span {
-  background-color: #f8ac07;
+  background-image: url(/img/babe.jpg);
+  background-position: top;
+  
+  background-attachment: fixed;
 }
 
 .nicescroll-cursors {

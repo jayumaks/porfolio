@@ -41,12 +41,12 @@ p:last-child {
  * Selection color
  */
 ::-moz-selection {
-  background-color: #FA6862;
+  background-color: #f8ac07;
   color: #fff;
 }
 
 ::selection {
-  background-color: #FA6862;
+  background-color: #f8ac07;
   color: #fff;
 }
 
@@ -95,7 +95,7 @@ textarea, label {
 }
 
 .btn-primary {
-  background-color: #FA6862;
+  background-color: #f8ac07;
   border: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -105,7 +105,7 @@ textarea, label {
   text-transform: uppercase;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
-  background-color: #f9423a;
+  background-color: #f8ac07;
 }
 
 .btn-border {
@@ -189,7 +189,7 @@ textarea, label {
 }
 
 .nicescroll-cursors {
-  background: #FA6862 !important;
+  background: #f8ac07 !important;
 }
 
 .preloader {
@@ -210,7 +210,7 @@ textarea, label {
 }
 
 .loading-mask {
-  background-color: #FA6862;
+ 
   height: 100%;
   left: 0;
   position: absolute;
@@ -328,7 +328,7 @@ textarea, label {
   bottom: 14px;
 }
 .section-title h3::after {
-  background-color: #FA6862;
+  background-color: #f8ac07;
   width: 73px;
 }
 .section-title.light h3 {
@@ -408,7 +408,7 @@ textarea, label {
 }
 .hexagon-item:hover .hex-item div::before,
 .hexagon-item:hover .hex-item div::after {
-  background-color: #FA6862;
+  background-color: #f8ac07;
 }
 .hexagon-item:hover .hex-content svg {
   -webkit-transform: scale(0.97);
