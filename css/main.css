@@ -566,7 +566,11 @@ textarea, label {
   height: -moz-calc(100vh - 4px);
   height: calc(100vh - 4px);
 }
-
+.author-image-large img{
+  width: 25%;
+  padding-top: 25px;
+  padding-right: 25px;
+}
 /*------------------------------------------------
     About Page
 -------------------------------------------------*/
