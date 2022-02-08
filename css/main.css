@@ -408,7 +408,7 @@ textarea, label {
 }
 .hexagon-item:hover .hex-item div::before,
 .hexagon-item:hover .hex-item div::after {
-  background-color: #f8ac0;
+  background-color: #f8ac07;
 }
 .hexagon-item:hover .hex-content svg {
   -webkit-transform: scale(0.97);
