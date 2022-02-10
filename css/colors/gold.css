@@ -17,9 +17,12 @@
 .hexagon-item:hover .hex-item div::after,
 .progress .bar,
 .contact-social li:hover span {
-  background-image: url(/img/babe.jpg) !important;
-  background-position: top;
-  
+  background-image: url(/img/babe.jg);
+  background-position: center;
+  vertical-align: middle;
+  background-repeat: repeat;
+  background-size: contain;
+  background-color: #f8ac07;
   background-attachment: fixed;
 }
 
